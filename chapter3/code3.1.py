@@ -1,5 +1,5 @@
 # linear search method
-# Q. For integer a0...aN-1 and v, is there any data where ai = v ? 
+# Q. For integer a[0]...a[N-1] and v, is there any data where a[i] = v ? 
 
 import numpy as np
 
