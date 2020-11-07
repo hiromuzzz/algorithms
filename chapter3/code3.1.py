@@ -10,8 +10,8 @@ v = int(input())
 
 exist = False
 
-for i in np.arange(N):
-    if i == v:
+for a in np.arange(N):
+    if a == v:
         exist = True
 
 print(exist)
