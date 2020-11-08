@@ -1,5 +1,5 @@
 # linear search method
-# Q. Find minimum value in the array.
+# Q. N個の整数の中から最小値を求める。
 
 import numpy as np
 

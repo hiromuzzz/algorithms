@@ -1,5 +1,5 @@
 # linear search method
-# Q. For integer a[0]...a[N-1] and v, is there any data where a[i] = v ? 
+# Q. N個の整数の中に、任意の整数vと等しい値があるか？
 
 import numpy as np
 
