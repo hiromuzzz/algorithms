@@ -7,7 +7,6 @@ print("The number of integers(from 0): ")
 N = int(input())
 
 a = np.arange(N)
-a = [10,3,4,6,8,100,29]
 max_val = a[0]
 min_val = a[0]
 
