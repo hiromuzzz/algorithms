@@ -3,15 +3,15 @@
 import numpy as np
 
 print("The number of integers(from 0): ")
-N = int(input())
+K = int(input())
 print("Expected total: ")
-W = int(input())
+N = int(input())
 
 a = np.arange(N)
 exist = 0
 
-# 0以上K以下の整数から３個選び、その総和がWとなるのは？
-for bit in np.arange(1 << N):
+# 0以上K以下の整数から３個選び、その総和がNとなるのは？
+for bit in np.arange(1 << K):
     bin_num = bin(bit)[2:]
     count = 0
     for b in bin_num:
@@ -26,7 +26,7 @@ for bit in np.arange(1 << N):
                 total += v
             i += 1 
     # W杜等しいくなるか？
-    if total == W:
+    if total == N:
         exist += 1
 
 print(exist)
